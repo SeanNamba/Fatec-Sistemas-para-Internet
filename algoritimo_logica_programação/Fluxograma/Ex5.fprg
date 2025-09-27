@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="seand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-07 08:54:18 "/>
+        <attribute name="created" value="c2VhbmQ7REVTS1RPUC0yRk9EQVNLOzIwMjQtMDMtMDc7IjA4OjQzOjU2ICI7Mjc5NQ=="/>
+        <attribute name="edited" value="c2VhbmQ7REVTS1RPUC0yRk9EQVNLOzIwMjQtMDMtMDc7IjA4OjU0OjE4ICI7MTsyOTAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s, a" type="Real" array="False" size=""/>
+            <input variable="s"/>
+            <if expression="s&lt;=500">
+                <then>
+                    <assign variable="a" expression="s+s*20/100"/>
+                </then>
+                <else>
+                    <assign variable="a" expression="s+s*10/100"/>
+                </else>
+            </if>
+            <output expression="a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

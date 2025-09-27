@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-10 09:32:25 "/>
+        <attribute name="created" value="YWx1bm87TEFCMDQtUFJPRkVTU09SOzIwMjItMDMtMDM7IjA4OjI1OjQ1ICI7Mjc5Mw=="/>
+        <attribute name="edited" value="YWx1bm87TEFCMDQtUFJPRkVTU09SOzIwMjItMDMtMTA7IjA5OjMyOjI1ICI7NDsyODk5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, result" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro n&#250;mero: &quot;" newline="False"/>
+            <input variable="a"/>
+            <output expression="&quot;Digite o segundo n&#250;mero: &quot;" newline="False"/>
+            <input variable="b"/>
+            <assign variable="result" expression="a + b"/>
+            <output expression="&quot;Soma &#233; = &quot; &amp; result" newline="True"/>
+            <assign variable="result" expression="a - b"/>
+            <output expression="&quot;Subtra&#231;&#227;o &#233; = &quot; &amp; result" newline="True"/>
+            <assign variable="result" expression="a * b"/>
+            <output expression="&quot;Multiplica&#231;&#227;o &#233; = &quot; &amp; result" newline="True"/>
+            <if expression="b = 0">
+                <then>
+                    <output expression="&quot;Imposs&#237;vel dividir!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="result" expression="a / b"/>
+                    <output expression="&quot;Divis&#227;o &#233; = &quot; &amp; result" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

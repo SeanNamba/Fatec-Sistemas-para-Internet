@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-10 10:25:32 "/>
+        <attribute name="created" value="YWx1bm87TEFCMDQtUFJPRkVTU09SOzIwMjItMDMtMDM7IjA4OjI1OjQ1ICI7Mjc5Mw=="/>
+        <attribute name="edited" value="YWx1bm87TEFCMDQtUFJPRkVTU09SOzIwMjItMDMtMTA7IjEwOjI1OjMyICI7NzsyODk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, result" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="False"/>
+            <input variable="n1"/>
+            <assign variable="result" expression="n1 * n1"/>
+            <output expression="&quot;Resultado &#233; = &quot; &amp; result" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

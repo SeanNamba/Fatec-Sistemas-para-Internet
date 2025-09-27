@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-10 10:51:28 "/>
+        <attribute name="created" value="YWx1bm87TEFCMDQtUFJPRkVTU09SOzIwMjItMDMtMDM7IjA4OjI1OjQ1ICI7Mjc5Mw=="/>
+        <attribute name="edited" value="YWx1bm87TEFCMDQtUFJPRkVTU09SOzIwMjItMDMtMTA7IjEwOjUxOjI4ICI7ODsyODk5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vr, tx, vrdolar" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor em Reais: &quot;" newline="False"/>
+            <input variable="vr"/>
+            <output expression="&quot;Digite o valor do d&#243;lar: &quot;" newline="False"/>
+            <input variable="tx"/>
+            <assign variable="vrdolar" expression="vr / tx"/>
+            <output expression="&quot;Valor em d&#243;lares &#233; = &quot; &amp; vrdolar" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

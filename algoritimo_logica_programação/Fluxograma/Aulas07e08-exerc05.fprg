@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-12 11:32:45 "/>
+        <attribute name="created" value="YWx1bm87TEFCMDItUFJPRkVTU09SOzIwMjMtMDktMTI7IjEwOjI5OjI1ICI7Mjc5Mw=="/>
+        <attribute name="edited" value="YWx1bm87TEFCMDItUFJPRkVTU09SOzIwMjMtMDktMTI7IjExOjMyOjQ1ICI7NjsyOTAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um valor para ser convertido em d&#243;lar: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <if expression="(n1 % 2 = 0)">
+                <then>
+                    <output expression="&quot;N&#250;mero &#233; par!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#250;mero &#233; &#237;mpar!!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

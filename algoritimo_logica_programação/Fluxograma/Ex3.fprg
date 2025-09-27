@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="seand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 08:26:21 "/>
+        <attribute name="created" value="c2VhbmQ7REVTS1RPUC0yRk9EQVNLOzIwMjQtMDMtMDY7IjA4OjI0OjAzICI7Mjc4NQ=="/>
+        <attribute name="edited" value="c2VhbmQ7REVTS1RPUC0yRk9EQVNLOzIwMjQtMDMtMDY7IjA4OjI2OjIxICI7MTsyODk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="d, n1, n2" type="Real" array="False" size=""/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <if expression="n2=0">
+                <then>
+                    <output expression="&quot;Opera&#231;&#227;o Inv&#225;lida&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="d" expression="n1/n2"/>
+                    <output expression="d" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
