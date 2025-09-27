@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+}
+
+body {
+    color: #C8BFFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to bottom right, black, #01000D, #020012, #030017, #080045);
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes a {
+    color: #C8BFFF;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header {
+    position: relative;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
