@@ -53,11 +53,11 @@ Se quiser contribuir:
 ---
 
 ## ✨ Autor
-👤 **[Seu Nome]**  
+👤 **[Sean Namba]**  
 Estudante de **Sistemas para Internet - FATEC**  
 📌 Interessado em desenvolvimento web, bancos de dados e tecnologias modernas.  
 
-🔗 [LinkedIn](https://www.linkedin.com) | [GitHub](https://github.com/seuusuario)  
+🔗 [LinkedIn](https://www.linkedin.com/in/sean-namba-838836220) | [GitHub](https://github.com/SeanNamba)  
 
 ---
 
